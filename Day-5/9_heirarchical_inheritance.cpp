@@ -39,7 +39,7 @@ class teacher : public person{
 
     void display_teacher(){
         cout << "Teachers details : \n";
-        display_teacher();
+        display_person();
         cout << "Salary : " << salary << endl;
     }
 };
